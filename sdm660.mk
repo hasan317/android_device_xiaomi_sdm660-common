@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+HAL_PATH := hardware/qcom-caf/sdm660-common
+
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
@@ -401,6 +403,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi
+
+QCOM_SOONG_NAMESPACE := $(HAL_PATH)
 
 # Telephony
 PRODUCT_PACKAGES += \
