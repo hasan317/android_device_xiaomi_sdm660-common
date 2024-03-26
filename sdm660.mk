@@ -373,7 +373,6 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
-    libprotobuf-cpp-full \
     librmnetctl \
     libsqlite.vendor:64 \
     rild
