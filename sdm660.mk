@@ -260,7 +260,7 @@ PRODUCT_PACKAGES += \
     init.fingerprint.rc \
     init.qcom.power.rc \
     init.qcom.rc \
-    init.recovery.qcom.rc \
+    init.qcom.recovery.rc \
     init.target.rc \
     ueventd.qcom.rc
 
